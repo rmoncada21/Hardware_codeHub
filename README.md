@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Hardware_codeHub
 
 Este repositorio funciona como un **hub central** que agrupa y organiza distintas desarrollos  relacionadas con el diseño y verificación de sistemas digitales usando lenguajes de descripción de hardware como **Verilog HDL** y **SystemVerilog**.
@@ -67,3 +68,7 @@ Este repositorio está en constante crecimiento.
 # SystemVerilog
 Disseño Digital -  SystemVerilog
 >>>>>>> b16c1bb (Initial commit)
+=======
+# SystemVerilog
+Disseño Digital -  SystemVerilog
+>>>>>>> 45740b1 (Initial commit)
