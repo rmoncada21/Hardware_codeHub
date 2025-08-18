@@ -4,3 +4,6 @@
 [submodule "digital_architectureHDL"]
 	path = digital_architectureHDL
 	url = git@rmoncada21.github.com:rmoncada21/digital_architectureHDL.git
+[submodule "digital_designHDL"]
+	path = digital_designHDL
+	url = git@rmoncada21.github.com:rmoncada21/digital_designHDL.git
