@@ -42,7 +42,7 @@ ROJO_FONDO="\033[41m"
 _vcscompile_autocomplete(){
     local cur="${COMP_WORDS[COMP_CWORD]}"
     # profundidad 2 para buscar en carpetas del directorio incluyendo bin y sim/
-    local options0=( -help clean)
+    local options0=( -help clean )
     local options1=$(find . -maxdepth 2 -type f \( -name "*.sv" \) -printf "%f\n")
     
     local options=( "${options0[@]}" "${options1[@]}" )
@@ -92,9 +92,31 @@ vcscompile(){
             echo -e "${AZUL_BRILLANTE}Ejecutando${RESET} ${VERDE_BRILLANTE}./sim/$file${RESET}"
             echo -e "./sim/$file\n"
             ./sim/$file
+        elif [[ "$file" == "-help" ]]; then
+            # echo -e "${AZUL_FONDO}==================== ${VERDE_BRILLANTE}VCS Compile Help${AZUL_FONDO} ====================${RESET}\n"
+            echo -e "$==================== ${VERDE_BRILLANTE}VCSCompile Help${RESET} ====================\n"
+
+            # echo -e "${CIAN_BRILLANTE}Uso:${RESET}"
+            echo -e "Uso:"
+            echo -e "  ${VERDE_BRILLANTE}vcscompile <archivo.sv>${RESET}            - Revisa sintaxis de un archivo SystemVerilog"
+            echo -e "  ${VERDE_BRILLANTE}vcscompile testbench_<archivo>.sv${RESET}  - Compila un testbench con VCS completo. Genera testbench_<archivo>_sim"
+            echo -e "  ${VERDE_BRILLANTE}vcscompile <archivo>.vcd${RESET}           - Abre un archivo VCD con VERDI/GTKWave"
+            echo -e "  ${VERDE_BRILLANTE}vcscompile clean${RESET}                   - Limpia carpetas temporales (bin, log, sim, gtkwave)"
+            echo -e "  ${VERDE_BRILLANTE}vcscompile -help${RESET}                   - Muestra esta ayuda\n"
+
+            # echo -e "${CIAN_BRILLANTE}Ejemplos:${RESET}"
+            echo -e "Ejemplos:"
+            echo -e "  ${AZUL_BRILLANTE}vcscompile packages.sv${RESET}               - Revisa sintaxis del archivo packages.sv"
+            echo -e "  ${AZUL_BRILLANTE}vcscompile testbench_top.sv${RESET}          - Compila el testbench_top.sv y genera sim/top_sim"
+            echo -e "  ${AZUL_BRILLANTE}vcscompile dump.vcd${RESET}                  - Abre el archivo dump.vcd en VERDI/GTKWave"
+            echo -e "  ${AZUL_BRILLANTE}vcscompile clean${RESET}                     - Limpia directorios generados\n"
+
+            echo -e "============================================================\n"
+            return 0
         elif [[ "$file" == "clean" ]]; then
             echo -e "${AZUL_BRILLANTE}rm -rf bin gtkwave AN.DB sim log${RESET}"
             rm -rf bin gtkwave AN.DB sim log
+            rm -f ucli.key
         else
             echo -e "${ROJO_FONDO}Archivo no admitido:${RESET} ${VERDE_BRILLANTE}$file${RESET}\n"
             return 1
