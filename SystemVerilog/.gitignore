@@ -1,12 +1,20 @@
 test/
+<<<<<<< HEAD
 test_*/
+=======
+>>>>>>> d0fd9c6 (Add gitinore)
 AN.DB/
 cscr/
 simv.daidir/
 bin/
 sim/
+<<<<<<< HEAD
 log/
 gtkwave/
 try_*
 demo_*
 ucli.key
+=======
+try_*
+demo_*
+>>>>>>> d0fd9c6 (Add gitinore)
