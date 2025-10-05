@@ -42,7 +42,11 @@ ROJO_FONDO="\033[41m"
 _vcscompile_autocomplete(){
     local cur="${COMP_WORDS[COMP_CWORD]}"
     # profundidad 2 para buscar en carpetas del directorio incluyendo bin y sim/
+<<<<<<< HEAD
     local options0=( -help clean )
+=======
+    local options0=( -help clean)
+>>>>>>> 0c66bde (Add makefileVCS.bashrc. Add this script to ~/.bashrc to enable compiling command from the terminal, using vcscompile file.sv or do source makefileVCS.bashrc to have the commands temporarily)
     local options1=$(find . -maxdepth 2 -type f \( -name "*.sv" \) -printf "%f\n")
     
     local options=( "${options0[@]}" "${options1[@]}" )
@@ -65,7 +69,11 @@ vcscompile(){
     if [[ "$file" == *.* ]]; then # verificar si el arhivo tiene extension
         # echo "Con extension"
         if [[ "$file_ext" == "sv" ]]; then
+<<<<<<< HEAD
             mkdir -p bin sim log gtkwave output
+=======
+            mkdir -p bin sim log
+>>>>>>> 0c66bde (Add makefileVCS.bashrc. Add this script to ~/.bashrc to enable compiling command from the terminal, using vcscompile file.sv or do source makefileVCS.bashrc to have the commands temporarily)
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
@@ -90,6 +98,7 @@ vcscompile(){
         # echo "Sin extension pero con terminación _sim"
         if [[ "$file" == *_sim ]]; then
             echo -e "${AZUL_BRILLANTE}Ejecutando${RESET} ${VERDE_BRILLANTE}./sim/$file${RESET}"
+<<<<<<< HEAD
             echo -e "./sim/$file | tee output/$file.txt \n"
             ./sim/$file | tee output/"${file}.txt"
         elif [[ "$file" == "-help" ]]; then
@@ -117,6 +126,13 @@ vcscompile(){
             echo -e "${AZUL_BRILLANTE}rm -rf bin gtkwave AN.DB sim log${RESET}"
             rm -rf bin gtkwave AN.DB sim log
             rm -f ucli.key
+=======
+            echo -e "./sim/$file\n"
+            ./sim/$file
+        elif [[ "$file" == "clean" ]]; then
+            echo -e "${AZUL_BRILLANTE}rm -rf bin gtkwave AN.DB sim log${RESET}"
+            rm -rf bin gtkwave AN.DB sim log
+>>>>>>> 0c66bde (Add makefileVCS.bashrc. Add this script to ~/.bashrc to enable compiling command from the terminal, using vcscompile file.sv or do source makefileVCS.bashrc to have the commands temporarily)
         else
             echo -e "${ROJO_FONDO}Archivo no admitido:${RESET} ${VERDE_BRILLANTE}$file${RESET}\n"
             return 1
