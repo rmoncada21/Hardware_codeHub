@@ -65,7 +65,7 @@ vcscompile(){
     if [[ "$file" == *.* ]]; then # verificar si el arhivo tiene extension
         # echo "Con extension"
         if [[ "$file_ext" == "sv" ]]; then
-            mkdir -p bin sim log
+            mkdir -p bin sim log gtkwave
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
