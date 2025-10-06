@@ -4,5 +4,8 @@ cscr/
 simv.daidir/
 bin/
 sim/
+log/
+gtkwave/
 try_*
 demo_*
+ucli.key
