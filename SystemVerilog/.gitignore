@@ -9,12 +9,19 @@ simv.daidir/
 bin/
 sim/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dab8fb (Update ../.gitignore)
 log/
 gtkwave/
 try_*
 demo_*
+<<<<<<< HEAD
 ucli.key
 =======
 try_*
 demo_*
 >>>>>>> d0fd9c6 (Add gitinore)
+=======
+ucli.key
+>>>>>>> 4dab8fb (Update ../.gitignore)
