@@ -74,10 +74,14 @@ vcscompile(){
         # echo "Con extension"
         if [[ "$file_ext" == "sv" ]]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
             mkdir -p bin sim log gtkwave output
 =======
             mkdir -p bin sim log
 >>>>>>> 0c66bde (Add makefileVCS.bashrc. Add this script to ~/.bashrc to enable compiling command from the terminal, using vcscompile file.sv or do source makefileVCS.bashrc to have the commands temporarily)
+=======
+            mkdir -p bin sim log gtkwave
+>>>>>>> 7603e4e (Update makefileVCS.bashrc)
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
