@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 `include "packages_enum.sv"
+=======
+`include "packages.sv"
+>>>>>>> 890873b (SV_design: User_defined_data. Add packages.sv & testbench_enum.sv. Files to test enum types)
 
 `define SHOW_COLOR(data) $display("Valor: %d, name=%s", data, data.name);
 
