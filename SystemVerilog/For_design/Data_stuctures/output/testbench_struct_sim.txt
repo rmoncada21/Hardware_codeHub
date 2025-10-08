@@ -1,0 +1,19 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct  8 11:13 2025
+Version package struct 1.1
+myStruct
+Nombre: variableA number:       12345
+myStruct
+Nombre: variableB number:        6789
+myPacked_struct
+Valid: 0 - tag: f0 - data: d5
+myPacked_struct
+Valid: 0 - tag: a0 - data: d5
+Usando create_myPacked_Struct function
+myPacked_struct
+Valid: 1 - tag: c0 - data: e5
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.910 seconds;       Data structure size:   0.0Mb
+Wed Oct  8 11:13:45 2025
