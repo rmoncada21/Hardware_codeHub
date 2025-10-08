@@ -1,0 +1,22 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct  8 11:14 2025
+--- Arreglo estático de tipo MyStruct Example ---
+arreglo[0]: data=0, name=Fixed_0
+arreglo[1]: data=10, name=Fixed_1
+arreglo[2]: data=20, name=Fixed_2
+arreglo[3]: data=30, name=Fixed_3
+arreglo[4]: data=40, name=Fixed_4
+--- Arreglo dinámico de tipo MyStruct Example ---
+arreglo_dinamico[0]: data=100, name=Dynamic_A
+arreglo_dinamico[1]: data=200, name=Dynamic_B
+arreglo_dinamico[2]: data=300, name=Dynamic_C
+--- Arreglo Asociativo de tipo MyStruct Example ---
+Iterating through arreglo_asociativo:
+arreglo_asociativo[5]: data=303, name=Assoc_Z
+arreglo_asociativo[10]: data=101, name=Assoc_X
+arreglo_asociativo[25]: data=202, name=Assoc_Y
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.890 seconds;       Data structure size:   0.0Mb
+Wed Oct  8 11:14:04 2025
