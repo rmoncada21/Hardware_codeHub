@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 `include "packages_alu.sv" // tener cuidado con el orden las importaciones
 `include "alu_variants.sv"
+=======
+`include "packages.sv" // tener cuidado con el orden las importaciones
+`include "alu.sv"
+>>>>>>> dd7488a (SV_design:Declaration_spaces. Rename alu.sv -> alu_variants.sv packages.sv -> packages_alu.sv testbench_packages.sv -> testbench_alu.sv)
 `include "alu_unit_space.sv"
 // import definitions::*;
 
