@@ -1,4 +1,4 @@
-`include "packages.sv"
+`include "packages_enum.sv"
 
 `define SHOW_COLOR(data) $display("Valor: %d, name=%s", data, data.name);
 
