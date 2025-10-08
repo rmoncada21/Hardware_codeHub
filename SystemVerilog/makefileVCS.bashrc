@@ -65,7 +65,7 @@ vcscompile(){
     if [[ "$file" == *.* ]]; then # verificar si el arhivo tiene extension
         # echo "Con extension"
         if [[ "$file_ext" == "sv" ]]; then
-            mkdir -p bin sim log gtkwave
+            mkdir -p bin sim log gtkwave output
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
@@ -90,8 +90,8 @@ vcscompile(){
         # echo "Sin extension pero con terminación _sim"
         if [[ "$file" == *_sim ]]; then
             echo -e "${AZUL_BRILLANTE}Ejecutando${RESET} ${VERDE_BRILLANTE}./sim/$file${RESET}"
-            echo -e "./sim/$file\n"
-            ./sim/$file
+            echo -e "./sim/$file | tee output/$file.txt \n"
+            ./sim/$file | tee output/"${file}.txt"
         elif [[ "$file" == "-help" ]]; then
             # echo -e "${AZUL_FONDO}==================== ${VERDE_BRILLANTE}VCS Compile Help${AZUL_FONDO} ====================${RESET}\n"
             echo -e "$==================== ${VERDE_BRILLANTE}VCSCompile Help${RESET} ====================\n"
