@@ -1,5 +1,5 @@
-`include "packages.sv" // tener cuidado con el orden las importaciones
-`include "alu.sv"
+`include "packages_alu.sv" // tener cuidado con el orden las importaciones
+`include "alu_variants.sv"
 `include "alu_unit_space.sv"
 // import definitions::*;
 
