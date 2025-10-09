@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct  8 22:11 2025
+arreglo_asociativo_clave[FECTH]:a0
+arreglo_asociativo_clave[DECODE]:b0
+arreglo_asociativo_clave[EXECUTE]:c0
+arreglo_asociativo_int[0]:d0
+arreglo_asociativo_int[1]:d1
+arreglo_asociativo_int[2]:d2
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.840 seconds;       Data structure size:   0.0Mb
+Wed Oct  8 22:11:59 2025
