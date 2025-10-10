@@ -1,8 +1,12 @@
 test/
 <<<<<<< HEAD
+<<<<<<< HEAD
 test_*/
 =======
 >>>>>>> d0fd9c6 (Add gitinore)
+=======
+test_*/
+>>>>>>> b8e185b (Update .gitignore)
 AN.DB/
 cscr/
 simv.daidir/
