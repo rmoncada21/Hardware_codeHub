@@ -1,0 +1,20 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct  8 22:43 2025
+arreglo[0]=2
+arreglo[1]=4
+arreglo[2]=6
+arreglo[3]=8
+size of arreglo = 4
+size del arreglo después del resize = 6
+arreglo[0]=0
+arreglo[1]=0
+arreglo[2]=0
+arreglo[3]=0
+arreglo[4]=0
+arreglo[5]=0
+size del arreglo después del resize = 0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.960 seconds;       Data structure size:   0.0Mb
+Wed Oct  8 22:43:16 2025
