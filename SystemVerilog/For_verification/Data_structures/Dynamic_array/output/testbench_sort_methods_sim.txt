@@ -1,0 +1,22 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct  9 22:42 2025
+arreglo[0]=3
+arreglo[1]=41
+arreglo[2]=81
+arreglo[3]=0
+arreglo[4]=100
+arreglo[5]=30
+arreglo[6]=73
+arreglo[7]=19
+arreglo[8]=52
+arreglo[9]=60
+Arreglo: '{3, 41, 81, 0, 100, 30, 73, 19, 52, 60} 
+Arreglo sort: '{0, 3, 19, 30, 41, 52, 60, 73, 81, 100} 
+Arreglo rsort: '{100, 81, 73, 60, 52, 41, 30, 19, 3, 0} 
+Arreglo shuffle: '{81, 52, 3, 0, 60, 19, 73, 100, 30, 41} 
+Arreglo reverse: '{41, 30, 100, 73, 19, 60, 0, 3, 52, 81} 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.890 seconds;       Data structure size:   0.0Mb
+Thu Oct  9 22:42:55 2025
