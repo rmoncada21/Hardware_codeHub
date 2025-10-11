@@ -1,0 +1,17 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 11 11:20 2025
+Value of st_id = 1, id = 1
+Value of st_id = 2, id = 1
+Value of st_id = 3, id = 1
+Value of st_id = 4, id = 1
+Value of st_id = 5, id = 1
+Do Transaction::st_id++
+Valor de st_id: 6
+Do trA.st_id++
+trA.st_id: 7
+Valor de st_id: 7
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Sat Oct 11 11:20:49 2025
