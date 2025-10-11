@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 11 11:48 2025
+tr[]: '{{ ref to class Transaction}, { ref to class Transaction}, { ref to class Transaction}, { ref to class Transaction}, { ref to class Transaction}}
+tr[0]: '{data:'h0, id:0}
+tr[1]: '{data:'h1, id:1}
+tr[2]: '{data:'h4, id:2}
+tr[3]: '{data:'h9, id:3}
+tr[4]: '{data:'h10, id:4}
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.840 seconds;       Data structure size:   0.0Mb
+Sat Oct 11 11:48:25 2025

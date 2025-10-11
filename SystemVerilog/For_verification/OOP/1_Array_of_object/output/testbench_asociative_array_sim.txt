@@ -1,0 +1,10 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 11 11:52 2025
+tr[TRANS].data = 0, tr[TRANS].id = 1
+tr[RECEIVE].data = 1, tr[RECEIVE].id = 2
+tr[REPEATER].data = 4, tr[REPEATER].id = 3
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Sat Oct 11 11:52:20 2025
