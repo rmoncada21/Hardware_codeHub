@@ -1,0 +1,12 @@
+test/
+test_*/
+AN.DB/
+cscr/
+simv.daidir/
+bin/
+sim/
+log/
+gtkwave/
+try_*
+demo_*
+ucli.key
