@@ -1,0 +1,12 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 11 19:05 2025
+Nombre de la clase Base
+Nombre de la clase subBase
+Valor de data: 32
+Valor de id: 123456
+Valor de data: 64
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.890 seconds;       Data structure size:   0.0Mb
+Sat Oct 11 19:06:00 2025
