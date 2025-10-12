@@ -1,6 +1,3 @@
-/*
-Clase padre que hereda el dato code
-*/
 class Driver;
     bit [31:0] code = 32'hC0DE_C0DE;
     
