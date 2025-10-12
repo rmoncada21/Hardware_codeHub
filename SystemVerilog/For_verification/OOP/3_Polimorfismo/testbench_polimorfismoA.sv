@@ -1,6 +1,11 @@
 /*
     La clase base y la clase derivada tiene las
     mismas propiedades (variables, funciones)
+    
+    Dado que las variables se declaran en ambas clases, 
+    se asigna memoria independiente. Por lo tanto, 
+    los valores de la clase base no son sobrescritos 
+    por su clase hija.
 */
 
 class Driver;
