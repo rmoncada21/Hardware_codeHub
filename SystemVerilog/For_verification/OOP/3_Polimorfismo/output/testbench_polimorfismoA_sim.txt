@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 12 12:22 2025
+
+First initial
+[Driver]: data=deaddead, id=001
+
+Second initial
+[Driver]: data=c0dedead, id=000
+[UartDriver]: data=c0deabcd, id=111
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.850 seconds;       Data structure size:   0.0Mb
+Sun Oct 12 12:22:04 2025
