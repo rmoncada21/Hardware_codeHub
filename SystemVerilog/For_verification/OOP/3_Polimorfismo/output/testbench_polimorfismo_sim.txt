@@ -1,0 +1,12 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 11 23:29 2025
+[UartDriver derivada]: code=c0deaaaa
+[SpiDriver derivada]: code=c0debbbb
+Usando puntero de drv para accede a UART - SPI
+[UartDriver derivada]: code=dead0000
+[SpiDriver derivada]: code=dead0001
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Sat Oct 11 23:29:33 2025
