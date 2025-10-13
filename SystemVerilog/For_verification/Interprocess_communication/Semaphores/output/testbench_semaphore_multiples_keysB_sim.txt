@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 16:26 2025
+[procesoA] iniciado
+[procesoA] terminado
+[procesoB] iniciado
+[procesoB] terminado
+[procesoC] iniciado
+[procesoC] terminado
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 15
+CPU Time:      0.900 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 16:26:33 2025
