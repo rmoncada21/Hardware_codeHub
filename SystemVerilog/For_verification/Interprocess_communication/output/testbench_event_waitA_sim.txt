@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 11:10 2025
+@0: Esperando al [evento e1]
+@10: Antes de activar [event e1]
+@10: Después de activar [event e1]
+test at: @10
+@10: Evento [event e1] ha sido activado
+[fork join] finished at time: 10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 11:10:58 2025
