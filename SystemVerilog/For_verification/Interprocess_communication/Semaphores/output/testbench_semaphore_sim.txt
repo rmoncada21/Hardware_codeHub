@@ -1,0 +1,11 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 16:09 2025
+Antes de la escritura de memoria
+Escritura completa de memoria
+Antes de la lectura de memoria
+Lectura completa de memoria
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 16:09:58 2025
