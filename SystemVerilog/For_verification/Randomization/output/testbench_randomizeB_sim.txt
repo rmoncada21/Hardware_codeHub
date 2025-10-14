@@ -1,0 +1,22 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 21:18 2025
+Mode : 0x1 Key : 0x6
+Mode : 0x2 Key : 0x3
+Mode : 0x1 Key : 0x5
+Mode : 0x2 Key : 0x4
+Mode : 0x2 Key : 0x4
+Mode : 0x2 Key : 0x5
+Mode : 0x1 Key : 0x6
+Mode : 0x2 Key : 0x3
+Mode : 0x2 Key : 0x5
+Mode : 0x0 Key : 0x6
+Mode : 0x0 Key : 0x4
+Mode : 0x2 Key : 0x3
+Mode : 0x1 Key : 0x3
+Mode : 0x0 Key : 0x6
+Mode : 0x2 Key : 0x4
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 21:18:30 2025
