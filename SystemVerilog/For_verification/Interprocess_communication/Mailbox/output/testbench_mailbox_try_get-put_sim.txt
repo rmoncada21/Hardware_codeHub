@@ -1,0 +1,18 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 20:17 2025
+successfully try_put data = 98
+successfully try_put data = 74
+successfully try_put data = 76
+successfully try_put data = 71
+successfully try_put data = 5
+----------------------------
+Successfully retrieved try_get data = 98
+Successfully retrieved try_get data = 74
+Successfully retrieved try_get data = 76
+Successfully retrieved try_get data = 71
+Successfully retrieved try_get data = 5
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.910 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 20:17:52 2025
