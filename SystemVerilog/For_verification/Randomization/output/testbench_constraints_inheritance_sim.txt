@@ -1,0 +1,37 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 14 16:12 2025
+Parent class: value = 2
+Parent class: value = 3
+Parent class: value = 6
+Parent class: value = 7
+Parent class: value = 2
+Parent class: value = 2
+Parent class: value = 9
+Parent class: value = 3
+Parent class: value = 6
+Parent class: value = 3
+Parent class: value = 1
+Parent class: value = 1
+Parent class: value = 2
+Parent class: value = 2
+Parent class: value = 8
+Child class: value = 51
+Child class: value = 63
+Child class: value = 54
+Child class: value = 54
+Child class: value = 55
+Child class: value = 54
+Child class: value = 54
+Child class: value = 51
+Child class: value = 54
+Child class: value = 51
+Child class: value = 63
+Child class: value = 61
+Child class: value = 61
+Child class: value = 59
+Child class: value = 51
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.900 seconds;       Data structure size:   0.0Mb
+Tue Oct 14 16:12:06 2025
