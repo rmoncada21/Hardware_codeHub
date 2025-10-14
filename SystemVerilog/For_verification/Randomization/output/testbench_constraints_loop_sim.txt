@@ -1,0 +1,39 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 14 00:11 2025
+value[LOW] = 19
+value[MID1] = 30
+value[MID2] = 54
+value[HIGH] = 92
+array[0] = 11
+array[1] = 15
+value[LOW] = 11
+value[MID1] = 38
+value[MID2] = 51
+value[HIGH] = 73
+array[0] = 2
+array[1] = 3
+value[LOW] = 10
+value[MID1] = 48
+value[MID2] = 68
+value[HIGH] = 99
+array[0] = 6
+array[1] = 3
+array[2] = 9
+array[3] = 12
+value[LOW] = 25
+value[MID1] = 41
+value[MID2] = 64
+value[HIGH] = 78
+array[0] = 10
+array[1] = 14
+value[LOW] = 13
+value[MID1] = 37
+value[MID2] = 55
+value[HIGH] = 94
+array[0] = 6
+array[1] = 15
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.910 seconds;       Data structure size:   0.0Mb
+Tue Oct 14 00:11:08 2025
