@@ -16,7 +16,7 @@
 #   vcs -Mupdate -full64 -sverilog archivo.sv -o sim/archivo_simv -Mdir=bin -l folder_loglog_test +lint=TFIPC-L
 #   genera log_test como archivo extra
 
-#   compilar con UVM
+# compilar con UVM
 #   vcs -Mupdate -full64 -sverilog -ntb_opts uvm-1.2 testbench.sv -o simv -l compile.log +lint=TFIPC-L -Mdir=build
 
 # Compilar para para debug con verdi
@@ -26,7 +26,6 @@
 #   -cm_report unencrypted_hierarchies+svpackages+noinitial \
 #   -Mdir=build
 #   genera
-
 
 # Colores ANSI: formato de salida
 RESET="\033[0m"
@@ -69,7 +68,8 @@ vcscompile(){
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
-                vcs -Mupdate -full64 -sverilog "$file" -o sim/${file%.sv}_sim -Mdir=bin -l log/log_test
+               vcs -Mupdate -full64 -sverilog "$file" -o sim/${file%.sv}_sim -Mdir=bin -l log/log_test
+                
             else # para revisar sintaxis
                 echo -e "${AZUL_BRILLANTE}vcscompile-syntax${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vlogan +lint=all -full64 -sverilog $file\n"
