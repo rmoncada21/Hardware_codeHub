@@ -90,8 +90,16 @@ vcscompile(){
         # echo "Sin extension pero con terminación _sim"
         if [[ "$file" == *_sim ]]; then
             echo -e "${AZUL_BRILLANTE}Ejecutando${RESET} ${VERDE_BRILLANTE}./sim/$file${RESET}"
+
+            # comando_con_colores | tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > log/file.log)
+            # ./sim/$file tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > output/"${file}.txt")
+
             echo -e "./sim/$file | tee output/$file.txt \n"
             ./sim/$file | tee output/"${file}.txt"
+            sed -i 's/\x1B\[[0-9;]*[A-Za-z]//g' output/"${file}.txt"
+
+            # ./sim/$file tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > output/"${file}.txt")
+
         elif [[ "$file" == "-help" ]]; then
             # echo -e "${AZUL_FONDO}==================== ${VERDE_BRILLANTE}VCS Compile Help${AZUL_FONDO} ====================${RESET}\n"
             echo -e "$==================== ${VERDE_BRILLANTE}VCSCompile Help${RESET} ====================\n"
