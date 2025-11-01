@@ -1,0 +1,28 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 19:42 2025
+Put data = 40
+Put data = 49
+Put data = 20
+Put data = 48
+Put data = 7
+Put data = 3
+Put data = 20
+Put data = 26
+Put data = 19
+Put data = 17
+----------------------
+Retrieved data = 40
+Retrieved data = 49
+Retrieved data = 20
+Retrieved data = 48
+Retrieved data = 7
+Retrieved data = 3
+Retrieved data = 20
+Retrieved data = 26
+Retrieved data = 19
+Retrieved data = 17
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.880 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 19:42:11 2025

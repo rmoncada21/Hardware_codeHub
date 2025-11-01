@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 16:44 2025
+[processA]: llave recibida
+[processA]: inicio
+[processB]: llave no disponible
+[processB]: inicio
+[processB]: fin
+[processA]: fin
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 16:45:00 2025

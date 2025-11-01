@@ -1,0 +1,27 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 22:39 2025
+scale =    HIGH, value = 85
+scale =  MEDIUM, value = 60
+scale =     LOW, value = 0
+scale =     LOW, value = 32
+scale =     LOW, value = 9
+scale =  MEDIUM, value = 54
+scale =     LOW, value = 18
+scale =     LOW, value = 31
+scale =     LOW, value = 33
+scale =    HIGH, value = 85
+scale =    HIGH, value = 100
+scale =     LOW, value = 25
+scale =     LOW, value = 15
+scale =    HIGH, value = 83
+scale =  MEDIUM, value = 46
+scale =     LOW, value = 34
+scale =  MEDIUM, value = 46
+scale =  MEDIUM, value = 38
+scale =    HIGH, value = 75
+scale =  MEDIUM, value = 39
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.910 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 22:39:17 2025

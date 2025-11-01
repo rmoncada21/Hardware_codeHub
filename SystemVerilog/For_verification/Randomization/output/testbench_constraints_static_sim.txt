@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 14 17:32 2025
+Before disabling constraint
+item1: value1 = 14, value2 = 1
+item2: value1 = 11, value2 = 2
+After disabling constraint for all value2 alone
+item1: value1 = 15, value2 = 63
+item2: value1 = 30, value2 = 72
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.860 seconds;       Data structure size:   0.0Mb
+Tue Oct 14 17:32:30 2025

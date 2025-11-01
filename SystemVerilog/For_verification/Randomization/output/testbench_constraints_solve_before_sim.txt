@@ -1,0 +1,17 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 14 17:17 2025
+enable = 1, val = 3
+enable = 0, val = 115
+enable = 1, val = 0
+enable = 0, val = 209
+enable = 0, val = 18
+enable = 0, val = 91
+enable = 0, val = 36
+enable = 0, val = 190
+enable = 0, val = 225
+enable = 1, val = 3
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.950 seconds;       Data structure size:   0.0Mb
+Tue Oct 14 17:17:43 2025

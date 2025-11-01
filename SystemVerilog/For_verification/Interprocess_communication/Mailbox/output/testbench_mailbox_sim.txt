@@ -1,0 +1,11 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 13 19:34 2025
+Put value = 5
+Put name = name-processA
+Get value = 5
+Get name = name-processA
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.890 seconds;       Data structure size:   0.0Mb
+Mon Oct 13 19:34:14 2025

@@ -16,7 +16,11 @@
 #   vcs -Mupdate -full64 -sverilog archivo.sv -o sim/archivo_simv -Mdir=bin -l folder_loglog_test +lint=TFIPC-L
 #   genera log_test como archivo extra
 
+<<<<<<< HEAD
 #   compilar con UVM
+=======
+# compilar con UVM
+>>>>>>> systemverilog_server
 #   vcs -Mupdate -full64 -sverilog -ntb_opts uvm-1.2 testbench.sv -o simv -l compile.log +lint=TFIPC-L -Mdir=build
 
 # Compilar para para debug con verdi
@@ -27,7 +31,10 @@
 #   -Mdir=build
 #   genera
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> systemverilog_server
 # Colores ANSI: formato de salida
 RESET="\033[0m"
 ROJO="\033[31m"
@@ -69,7 +76,12 @@ vcscompile(){
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
+<<<<<<< HEAD
                 vcs -Mupdate -full64 -sverilog "$file" -o sim/${file%.sv}_sim -Mdir=bin -l log/log_test
+=======
+               vcs -Mupdate -full64 -sverilog "$file" -o sim/${file%.sv}_sim -Mdir=bin -l log/log_test
+                
+>>>>>>> systemverilog_server
             else # para revisar sintaxis
                 echo -e "${AZUL_BRILLANTE}vcscompile-syntax${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vlogan +lint=all -full64 -sverilog $file\n"
@@ -90,8 +102,21 @@ vcscompile(){
         # echo "Sin extension pero con terminación _sim"
         if [[ "$file" == *_sim ]]; then
             echo -e "${AZUL_BRILLANTE}Ejecutando${RESET} ${VERDE_BRILLANTE}./sim/$file${RESET}"
+<<<<<<< HEAD
             echo -e "./sim/$file | tee output/$file.txt \n"
             ./sim/$file | tee output/"${file}.txt"
+=======
+
+            # comando_con_colores | tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > log/file.log)
+            # ./sim/$file tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > output/"${file}.txt")
+
+            echo -e "./sim/$file | tee output/$file.txt \n"
+            ./sim/$file | tee output/"${file}.txt"
+            sed -i 's/\x1B\[[0-9;]*[A-Za-z]//g' output/"${file}.txt"
+
+            # ./sim/$file tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > output/"${file}.txt")
+
+>>>>>>> systemverilog_server
         elif [[ "$file" == "-help" ]]; then
             # echo -e "${AZUL_FONDO}==================== ${VERDE_BRILLANTE}VCS Compile Help${AZUL_FONDO} ====================${RESET}\n"
             echo -e "$==================== ${VERDE_BRILLANTE}VCSCompile Help${RESET} ====================\n"

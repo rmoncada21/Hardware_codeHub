@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Oct 14 16:56 2025
+Before disabling randomization: value1 = 14, value2 = 70
+After disabling randomization for all variables in a class
+Retain old values: value1 = 14, value2 = 70
+After enabling randomization: value1 = 15, value2 = 80
+After disabling randomization for value2 variables in a class: value1 = 22, value2 = 80
+rand_mode function returns for value1 = 1, value2 = 0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.900 seconds;       Data structure size:   0.0Mb
+Tue Oct 14 16:56:32 2025
