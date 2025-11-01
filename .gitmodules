@@ -13,3 +13,6 @@
 [submodule "UVM_MeshNoC"]
 	path = UVM_MeshNoC
 	url = git@rmoncada21.github.com:rmoncada21/Proyecto_UVM_MeshNoC.git
+[submodule "UVM_lab"]
+	path = UVM_lab
+	url = git@rmoncada21.github.com:rmoncada21/UVM_lab_series.git
