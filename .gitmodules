@@ -7,3 +7,6 @@
 [submodule "digital_designHDL"]
 	path = digital_designHDL
 	url = git@rmoncada21.github.com:rmoncada21/digital_designHDL.git
+[submodule "LCR_SV_Aligner"]
+	path = LCR_SV_Aligner
+	url = git@rmoncada21.github.com:rmoncada21/Proyecto_LCR_SV_Aligner.git
