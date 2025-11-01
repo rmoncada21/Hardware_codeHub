@@ -10,3 +10,6 @@
 [submodule "LCR_SV_Aligner"]
 	path = LCR_SV_Aligner
 	url = git@rmoncada21.github.com:rmoncada21/Proyecto_LCR_SV_Aligner.git
+[submodule "UVM_MeshNoC"]
+	path = UVM_MeshNoC
+	url = git@rmoncada21.github.com:rmoncada21/Proyecto_UVM_MeshNoC.git
