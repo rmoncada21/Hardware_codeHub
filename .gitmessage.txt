@@ -1,0 +1,20 @@
+# Convención de commits — Hardware_codeHub
+# Formato: <prefijo>: <mensaje breve>
+
+# Prefijos principales:
+# - Verilog        → Cambios en la carpeta Verilog/
+# - SystemVerilog  → Cambios en la carpeta SystemVerilog/
+# - Submodule      → Cambios en submódulos
+# - Repo           → Cambios en archivos base (.gitignore, README.md, Makefile, scripts, etc.)
+
+# EJEMPLOS:
+# Verilog - Verilog/folder: agregar módulo contador básico
+# SystemVerilog - SV/folder: añadir interfaz apb_if para DUT
+# Submodule - digital_verification_SV: update - sincronizar con la última versión remota
+# Repo: agregar reglas de gitignore para archivos temporales
+
+# Archivos modificados (opcional)
+# EJEMPLO:
+# Nuevos archivos:
+# - Verilog/alu.v
+# - SystemVerilog/tb/top_tb.sv
