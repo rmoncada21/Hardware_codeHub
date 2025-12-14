@@ -7,11 +7,11 @@
 [submodule "digital_designHDL"]
 	path = digital_designHDL
 	url = git@rmoncada21.github.com:rmoncada21/digital_designHDL.git
-[submodule "LCR_SV_Aligner"]
-	path = LCR_SV_Aligner
+[submodule "lcr_sv_Aligner"]
+	path = lcr_sv_Aligner
 	url = git@rmoncada21.github.com:rmoncada21/Proyecto_LCR_SV_Aligner.git
-[submodule "UVM_MeshNoC"]
-	path = UVM_MeshNoC
+[submodule "uvm_MeshNoC"]
+	path = uvm_MeshNoC
 	url = git@rmoncada21.github.com:rmoncada21/Proyecto_UVM_MeshNoC.git
 [submodule "uvm_lab"]
 	path = uvm_lab
