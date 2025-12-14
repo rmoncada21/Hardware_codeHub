@@ -1,12 +1,16 @@
 test/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test_*/
 =======
 >>>>>>> d0fd9c6 (Add gitinore)
 =======
 test_*/
 >>>>>>> b8e185b (Update .gitignore)
+=======
+test_*/
+>>>>>>> sync-repo_systemverilog_mirror
 AN.DB/
 cscr/
 simv.daidir/
@@ -14,12 +18,16 @@ bin/
 sim/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4dab8fb (Update ../.gitignore)
+=======
+>>>>>>> sync-repo_systemverilog_mirror
 log/
 gtkwave/
 try_*
 demo_*
+<<<<<<< HEAD
 <<<<<<< HEAD
 ucli.key
 =======
@@ -29,3 +37,6 @@ demo_*
 =======
 ucli.key
 >>>>>>> 4dab8fb (Update ../.gitignore)
+=======
+ucli.key
+>>>>>>> sync-repo_systemverilog_mirror

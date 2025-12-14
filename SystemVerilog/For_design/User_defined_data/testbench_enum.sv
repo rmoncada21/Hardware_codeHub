@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 `include "packages_enum.sv"
 =======
 `include "packages.sv"
@@ -7,6 +8,9 @@
 =======
 `include "packages_enum.sv"
 >>>>>>> 8f10449 (SV_design: User_defined_data. Update testbench_enum.sv)
+=======
+`include "packages_enum.sv"
+>>>>>>> sync-repo_systemverilog_mirror
 
 `define SHOW_COLOR(data) $display("Valor: %d, name=%s", data, data.name);
 

@@ -43,6 +43,7 @@ _vcscompile_autocomplete(){
     # profundidad 2 para buscar en carpetas del directorio incluyendo bin y sim/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     local options0=( -help clean )
 =======
     local options0=( -help clean)
@@ -50,6 +51,9 @@ _vcscompile_autocomplete(){
 =======
     local options0=( -help clean )
 >>>>>>> 2df37c0 (Update makefileVCS.bashrc)
+=======
+    local options0=( -help clean )
+>>>>>>> sync-repo_systemverilog_mirror
     local options1=$(find . -maxdepth 2 -type f \( -name "*.sv" \) -printf "%f\n")
     
     local options=( "${options0[@]}" "${options1[@]}" )
@@ -75,6 +79,7 @@ vcscompile(){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             mkdir -p bin sim log gtkwave output
 =======
             mkdir -p bin sim log
@@ -85,6 +90,9 @@ vcscompile(){
 =======
             mkdir -p bin sim log gtkwave output
 >>>>>>> 2d2f15a (Update makefileVCS.bashrc)
+=======
+            mkdir -p bin sim log gtkwave output
+>>>>>>> sync-repo_systemverilog_mirror
             if [[ "$file" == testbench_* ]]; then
                 echo -e "${AZUL_BRILLANTE}vcscompile${RESET} ${VERDE_BRILLANTE}$file${RESET}"
                 echo -e "vcs -Mupdate -full64 -sverilog $file -o sim/${CIAN_BRILLANTE}${file%.sv}_sim${RESET} -Mdir=bin -l log/log_${file%.sv} \n"
@@ -113,12 +121,18 @@ vcscompile(){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> sync-repo_systemverilog_mirror
 
             # comando_con_colores | tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > log/file.log)
             # ./sim/$file tee >(sed 's/\x1B\[[0-9;]*[A-Za-z]//g' > output/"${file}.txt")
 
+<<<<<<< HEAD
 >>>>>>> ff5fa5a (Update makefileVCS.bashrc)
+=======
+>>>>>>> sync-repo_systemverilog_mirror
             echo -e "./sim/$file | tee output/$file.txt \n"
             ./sim/$file | tee output/"${file}.txt"
             sed -i 's/\x1B\[[0-9;]*[A-Za-z]//g' output/"${file}.txt"
@@ -150,6 +164,7 @@ vcscompile(){
             echo -e "${AZUL_BRILLANTE}rm -rf bin gtkwave AN.DB sim log${RESET}"
             rm -rf bin gtkwave AN.DB sim log
             rm -f ucli.key
+<<<<<<< HEAD
 =======
             echo -e "./sim/$file\n"
             ./sim/$file
@@ -186,6 +201,8 @@ vcscompile(){
 =======
             rm -f ucli.key
 >>>>>>> 2df37c0 (Update makefileVCS.bashrc)
+=======
+>>>>>>> sync-repo_systemverilog_mirror
         else
             echo -e "${ROJO_FONDO}Archivo no admitido:${RESET} ${VERDE_BRILLANTE}$file${RESET}\n"
             return 1

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 `include "packages_alu.sv" // tener cuidado con el orden las importaciones
 `include "alu_variants.sv"
 =======
@@ -10,6 +11,10 @@
 `include "packages_alu.sv" // tener cuidado con el orden las importaciones
 `include "alu_variants.sv"
 >>>>>>> 57b7106 (SV_design: Declaration_spaces. Update testbench_alu.sv)
+=======
+`include "packages_alu.sv" // tener cuidado con el orden las importaciones
+`include "alu_variants.sv"
+>>>>>>> sync-repo_systemverilog_mirror
 `include "alu_unit_space.sv"
 // import definitions::*;
 
